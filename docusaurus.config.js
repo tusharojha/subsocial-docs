@@ -266,6 +266,14 @@ module.exports = {
             to: '/docs/develop/about-subsocial',
             from: '/docs/develop/getting-started/introduction',
           },
+          {
+            to: '/docs/basics/lightpaper/architecture',
+            from: '/docs/basics/lightpaper/architecture/architecture',
+          },
+          {
+            to: '/docs/tutorials',
+            from: '/docs/faq/getting-started/account-setup/polkadot-js',
+          },
 
         ],
         createRedirects(existingPath) {
